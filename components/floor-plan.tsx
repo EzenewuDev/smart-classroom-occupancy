@@ -240,4 +240,4 @@ export const FloorPlan = memo(function FloorPlan({ rooms, onRoomClick, selectedR
       </CardContent>
     </Card>
   );
-}
+});
