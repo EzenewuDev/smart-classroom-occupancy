@@ -1,13 +1,13 @@
 'use client';
 
-import React, { useState, Suspense, lazy, memo } from 'react';
+import React, { useState, Suspense, lazy } from 'react';
 import { Header } from '@/components/header';
 import { Sidebar } from '@/components/sidebar';
 import { AuthGuard } from '@/components/auth-guard';
 import { useAuth } from '@/context/auth-context';
 import { mockRooms, mockBookings } from '@/lib/data';
 import { Room } from '@/types';
-import { Filter, BookOpen, Clock, Users } from 'lucide-react';
+import { Filter, BookOpen, Clock } from 'lucide-react';
 
 // Lazy load heavy components
 const FloorPlan = lazy(() => import('@/components/floor-plan').then(m => ({ default: m.FloorPlan })));

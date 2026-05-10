@@ -7,12 +7,9 @@ import { AuthGuard } from '@/components/auth-guard';
 import { 
   BarChart3, 
   TrendingUp, 
-  Users, 
   Building2, 
-  Clock,
   Calendar,
   Download,
-  Filter,
   ArrowUpRight,
   ArrowDownRight
 } from 'lucide-react';

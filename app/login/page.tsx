@@ -23,7 +23,7 @@ export default function LoginPage() {
     try {
       await login(email, password);
     } catch (err) {
-      setError('Invalid email or password. Try: student@university.edu / password');
+      setError('Invalid email or password. Try: student@lcu.edu.ng / password');
     }
   };
 
@@ -63,7 +63,7 @@ export default function LoginPage() {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="you@university.edu"
+                    placeholder="you@lcu.edu.ng"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="pl-10"
@@ -135,21 +135,21 @@ export default function LoginPage() {
               <div className="flex flex-wrap gap-2 justify-center">
                 <button
                   type="button"
-                  onClick={() => { setEmail('student@university.edu'); setPassword('password'); }}
+                  onClick={() => { setEmail('student@lcu.edu.ng'); setPassword('password'); }}
                   className="text-xs px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded-full transition-colors"
                 >
                   Student
                 </button>
                 <button
                   type="button"
-                  onClick={() => { setEmail('faculty@university.edu'); setPassword('password'); }}
+                  onClick={() => { setEmail('faculty@lcu.edu.ng'); setPassword('password'); }}
                   className="text-xs px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded-full transition-colors"
                 >
                   Faculty
                 </button>
                 <button
                   type="button"
-                  onClick={() => { setEmail('admin@university.edu'); setPassword('password'); }}
+                  onClick={() => { setEmail('admin@lcu.edu.ng'); setPassword('password'); }}
                   className="text-xs px-3 py-1 bg-gray-100 hover:bg-gray-200 rounded-full transition-colors"
                 >
                   Admin

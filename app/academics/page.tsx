@@ -11,7 +11,6 @@ import {
   Users, 
   Calendar,
   Clock,
-  MapPin,
   ChevronRight,
   Plus,
   Search,

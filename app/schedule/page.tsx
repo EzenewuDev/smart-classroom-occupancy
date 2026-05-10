@@ -16,7 +16,6 @@ import {
   Download,
   Plus,
   Search,
-  Bell,
   GraduationCap
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';

@@ -7,12 +7,10 @@ import { AuthGuard } from '@/components/auth-guard';
 import { 
   FileText, 
   Download, 
-  Calendar,
   Filter,
   Eye,
   Clock,
   CheckCircle2,
-  AlertCircle,
   Users,
   Building2
 } from 'lucide-react';

@@ -69,7 +69,7 @@ export default function LandingClient() {
               <div className="bg-blue-600 p-2 rounded-lg">
                 <Building2 className="h-6 w-6 text-white" />
               </div>
-              <span className="text-xl font-bold text-gray-900">Smart Campus</span>
+              <span className="text-xl font-bold text-gray-900">Lead City University</span>
             </div>
             <div className="flex items-center gap-4">
               <Link href="/login" className="text-gray-600 hover:text-gray-900 font-medium">
@@ -219,7 +219,7 @@ export default function LandingClient() {
             Ready to transform your campus?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join hundreds of institutions already using Smart Campus to optimize their spaces.
+            Join the community at Lead City University to optimize our educational spaces.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/signup">
@@ -245,10 +245,10 @@ export default function LandingClient() {
                 <div className="bg-blue-600 p-2 rounded-lg">
                   <Building2 className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-lg font-bold text-white">Smart Campus</span>
+                <span className="text-lg font-bold text-white">Lead City University</span>
               </div>
               <p className="text-sm">
-                Optimizing educational spaces through intelligent technology.
+                Optimizing educational spaces through intelligent technology at Lead City University.
               </p>
             </div>
             <div>
@@ -277,7 +277,7 @@ export default function LandingClient() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-12 pt-8 text-sm text-center">
-            © 2024 Smart Campus. All rights reserved.
+            © 2026 Lead City University. All rights reserved.
           </div>
         </div>
       </footer>

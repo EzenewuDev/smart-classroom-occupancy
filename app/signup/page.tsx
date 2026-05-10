@@ -51,7 +51,7 @@ export default function SignupPage() {
             </div>
           </div>
           <h2 className="text-3xl font-bold text-gray-900">Create account</h2>
-          <p className="mt-2 text-gray-600">Join Smart Campus today</p>
+          <p className="mt-2 text-gray-600">Join Lead City University today</p>
         </div>
 
         <Card className="shadow-xl border-0">
@@ -92,7 +92,7 @@ export default function SignupPage() {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="you@university.edu"
+                    placeholder="you@lcu.edu.ng"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="pl-10"

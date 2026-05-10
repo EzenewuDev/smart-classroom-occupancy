@@ -9,10 +9,7 @@ import {
   Building2, 
   User, 
   Clock,
-  CheckCircle2,
   AlertCircle,
-  ArrowRight,
-  Calendar,
   Filter
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
