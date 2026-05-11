@@ -86,12 +86,6 @@ export default function LandingClient() {
                   Get Started
                 </Button>
               </Link>
-              <div className="h-6 w-px bg-gray-200 mx-2" />
-              <Link href="/dashboard">
-                <Button variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-50">
-                  Open Dashboard
-                </Button>
-              </Link>
             </div>
 
             {/* Mobile Menu Button */}
@@ -128,17 +122,6 @@ export default function LandingClient() {
                   Get Started
                 </Button>
               </Link>
-              <div className="pt-2 border-t">
-                <Link 
-                  href="/dashboard" 
-                  onClick={() => setIsMenuOpen(false)}
-                  className="block"
-                >
-                  <Button variant="ghost" className="w-full text-blue-600 hover:text-blue-700 hover:bg-blue-50 justify-center">
-                    Open Dashboard
-                  </Button>
-                </Link>
-              </div>
             </div>
           </div>
         )}
@@ -165,9 +148,9 @@ export default function LandingClient() {
                 campus operates.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="/dashboard">
+                <Link href="/signup">
                   <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-lg px-8">
-                    Open Dashboard
+                    Get Started
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
