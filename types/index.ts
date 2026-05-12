@@ -6,6 +6,7 @@ export interface Room {
   capacity: number;
   currentOccupancy: number;
   status: 'available' | 'occupied' | 'maintenance' | 'cleaning';
+  department?: string;
   coordinates: {
     x: number;
     y: number;
